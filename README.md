@@ -13,12 +13,13 @@
 ```bash
 # 下载源码
 git clone https://github.com/liuyueyi/python-task-engine.git
+cd python-task-engine
 
 # 创建虚拟环境
-python3.7 -m venv venv
+python3 -m venv venv
 
 # 安装依赖
-venv/bin/pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 #### 使用说明
@@ -26,7 +27,7 @@ venv/bin/pip install -r requirements.txt
 启动命令如下:
 
 ```bash
-venv/bin/python3 main.py DemoCrawler -e dev -l
+python3 main.py DemoCrawler -e dev -l
 ```
 
 参数说明:
